@@ -58,14 +58,13 @@
 
                         Our aim is to give you the total service from the design stage  to planning and installation.
 
-                        We can also repair service your existing gas appliances and advise on upgrades. &nbsp; <%= link_to "More.", services_path %>
+                        We can also repair service your existing gas appliances and advise on upgrades. &nbsp;<a href="about.html">more detail</a>
                     </p>
                 </div>
                 <div class="span9">
                     <div class="row">
                         <div class="span9">
-                            <h3>Services</h3> 
-                           <%= link_to "View all our services", services_path, class: "pull-right" %>
+                            <h3>Services</h3><a href="services.html" class="pull-right">view all services</a>
                         </div>
                     </div>
                     <br>
@@ -77,7 +76,8 @@
                                         <div class="caption">
                                             <a href="service_detail.html"><h4>Wet Rooms</h4></a>
                                             <p>
-                                               Expert wetroom installations. 
+                                                Some information on the serverives that TA Freeman provides
+                                                Cum sociis natoque penatibus et magnis dis parturient montes
                                             </p>
                                         </div>
                                         <%= link_to image_tag("wetroom.jpg", alt: "wetroom"), '#' %>
@@ -89,22 +89,14 @@
                                         <div class="caption">
                                             <a href="service_detail.html"><h4>Bathroom fitting</h4></a>
                                             <p>
-                                               Full bathroom design plan and fit service. 
+                                                Cum sociis natoque penatibus et magnis dis parturient montes
+                                                Some information on the serverives that TA Freeman provides
                                             </p>
                                         </div>
                                         <%= link_to image_tag("bathroom.jpg", alt: "bathroom"), '#' %>
                                     </div>
                                 </li>       
                                 <li class="span3">
-                                   <div class="service-box">
-                                        <div class="caption">
-                                            <a href="service_detail.html"><h4>Boiler installs / Service</h4></a>
-                                            <p>
-                                               Boiler and Central heating installations. 
-                                            </p>
-                                        </div>
-                                        <%= link_to image_tag("boiler.jpg", alt: "boiler"), '#' %>
-                                    </div>
 
 
                                 </li>        
@@ -121,9 +113,9 @@
                 <div class="span3">
                     <h3>About Us</h3>
                     <p>
-                        Established over 20 years ago TA Freeman has being serving the Whitby Area for many areas.  
-                        Corgi registered and Gas Safe registered engineers.
+                        Suspendisse semper, tortor et lobortis mattis, turpis lacus placerat tortor, quis convallis metus mi vitae quam.
 
+                        Disse semper, tortor et lobortis mattis, turpis lacus placerat tortor, quis conval ante. more about us
                     </p>
                     <p>
                         Suspendisse semper, tortor et lobortis mattis, turpis lacus placerat tortor, quis convallis metus mi vitae quam.
@@ -138,6 +130,10 @@
                                     <a href="blog.html">Vivamus imperdiet, massa sed...</a> <br> 
                                     <span>April 20th, 2011</span> 
                                 </li> 
+                                <li> 
+                                    <a href="blog.html">Vestibulum varius neque ultrices eget lobortis ligula venenatis nec</a> <br>
+                                    <span>March 10th, 2011</span> 
+                                </li> 
                                 <li> <a href="blog.html">Quisque sed eros orci</a> <br> 
                                     <span>February 5th, 2011</span> 
                                 </li> 
@@ -150,6 +146,9 @@
                                     <span>March 10th, 2011</span> 
                                 </li> 
 
+                                <li class="last"> 
+                                    <a href="blog.html">more news</a> 
+                                </li> 
                             </ul>
                         </div>
                         <div class="span6">
