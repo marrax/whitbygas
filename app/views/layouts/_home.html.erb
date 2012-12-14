@@ -3,7 +3,7 @@
                     <div id="myCarousel" class="carousel slide">
                         <div class="carousel-inner">
                             <div class="item">
-				<%= link_to image_tag("1.jpg", alt: "Fireplace"), 'http://rubyonrails.org/' %>
+				<%= link_to image_tag("1.jpg", alt: "Fireplace"), '#' %>
                                 <img alt="" src="1.jpg" />
                                 <div class="carousel-caption">
                                     <h4>Heating installations</h4>
@@ -13,7 +13,7 @@
 
                             </div>
                             <div class="item active">
-				<%= link_to image_tag("2.jpg", alt: "Fireplace"), 'http://rubyonrails.org/' %>
+				<%= link_to image_tag("2.jpg", alt: "Bathroom"), '#' %>
                                 <div class="carousel-caption">
                                     <h4>Fire installs </h4>
                                     <p> Specializing in Gas fireplaces. Gas safe registered fitters. </p>
@@ -22,7 +22,7 @@
                             </div>
 
                             <div class="item">
-				<%= link_to image_tag("3.jpg", alt: "Fireplace"), 'http://rubyonrails.org/' %>
+				<%= link_to image_tag("3.jpg", alt: "Heating Engineer"), '#' %>
                                 <div class="carousel-caption">
                                     <h4>Plumbing and Gas fitting</h4>
                                     <p> Bathrooms, Wetrooms. We give the complete service from start to finish. </p>
@@ -30,7 +30,7 @@
                             </div>
 
                             <div class="item">
-				<%= link_to image_tag("4.png", alt: "Fireplace"), 'http://rubyonrails.org/' %>
+				<%= link_to image_tag("4.png", alt: "Plumber"), '#' %>
                                 <div class="carousel-caption">
                                     <h4>Bathroom Plumbing</h4>
                                     <p> Bathroom design,planning,fit. Total solution. </p>
@@ -38,7 +38,7 @@
                             </div>
 
                             <div class="item">
-				<%= link_to image_tag("5.jpg", alt: "Fireplace"), 'http://rubyonrails.org/' %>
+				<%= link_to image_tag("5.jpg", alt: "Heating"), '#' %>
                                 <div class="carousel-caption">
                                     <h4>Central Heating - by experts</h4>
                                     <p> Central Heating design and fitting. Over 20 years experience. </p>
@@ -126,7 +126,7 @@
 
                     </p>
                     <p>
-                        Suspendisse semper, tortor et lobortis mattis, turpis lacus placerat tortor, quis convallis metus mi vitae quam.
+                        Installation,Service and Repairs.
                         &nbsp;<a href="about.html">more detail</a>
                     </p>
                 </div>
@@ -135,19 +135,15 @@
                         <div class="span3">
                             <ul id="news-box"> 
                                 <li class="first"> 
-                                    <a href="blog.html">Vivamus imperdiet, massa sed...</a> <br> 
-                                    <span>April 20th, 2011</span> 
+                                    <a href="blog.html">Design and install of 10 Wetrooms at Peregrine House</a> <br> 
+                                    <span>Oct 2012</span> 
                                 </li> 
-                                <li> <a href="blog.html">Quisque sed eros orci</a> <br> 
+                                <li> <a href="blog.html">Other Work</a> <br> 
                                     <span>February 5th, 2011</span> 
                                 </li> 
                                 <li> 
-                                    <a href="blog.html">Vivamus imperdiet, massa sed...</a> <br> 
+                                    <a href="blog.html">Previous work</a> <br> 
                                     <span>April 20th, 2011</span> 
-                                </li> 
-                                <li> 
-                                    <a href="blog.html">Vestibulum varius neque ultrices eget lobortis ligula venenatis nec</a> <br>
-                                    <span>March 10th, 2011</span> 
                                 </li> 
 
                             </ul>
@@ -157,16 +153,13 @@
                             <div class="row">
                                 <div class="span6">
                                     <blockquote>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis.</p>
-                                        <small>Someone famous</small>
-
+                                        <p>"Execellent service from Start to Finish, Thoroughly recommended"</p>
+                                        <small>Mr A Smith - Peregrine House. Oct 2012</small>
                                     </blockquote>
 
-
-
                                     <blockquote>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante venenatis.</p>
-                                        <small>Someone famous</small>
+                                        <p>Some brilliant work quotes.</p>
+                                        <small>A Customer. Sep 2012</small>
                                     </blockquote>
                                     <br>
                                     <a href="testimonials.html">more testimonials</a>
@@ -175,24 +168,21 @@
                             </div>
                             <div class="row">
                                 <div class="span6">
-                                    <h3>Partners</h3><br>
+                                    <h3>Products we supply</h3><br>
                                     <ul class="thumbnails">
                                         <li class="span2">
                                             <div class="service-box">
-                                                <a href="service_detail.html"><img alt="" src="http://placehold.it/200x120"></a>
-
+						<%= link_to image_tag("baxi.jpg", alt: "baxi" ), 'http://www.baxi.co.uk/about/products.htm'%>
                                             </div>
                                         </li>
                                         <li class="span2">
                                             <div class="service-box">
-                                                <a href="service_detail.html"><img alt="" src="http://placehold.it/200x120"></a>
-
+                                               <%= link_to image_tag("gazco.jpg", alt: "gazco"), 'http://www.stovax.com/' %> 
                                             </div>
                                         </li>
                                         <li class="span2">
                                             <div class="service-box">
-                                                <a href="service_detail.html"><img alt="" src="http://placehold.it/200x120"></a>
-
+                                                <%= link_to image_tag("vaillant.jpg", alt: "valliant"), 'http://www.vaillant.co.uk/homeowner' %>
                                             </div>
                                         </li>        
 
