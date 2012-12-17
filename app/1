@@ -11,32 +11,30 @@
 <hr>
 <div class="row">
                 <div class="span12">
+                    <div class="span12 single">
                         <p>
-Whether you are looking for a new boiler or central heating system to be installed or alternatively are looking to increase the efficiency of your current system by carrying out, for example a powerflush, then our engineers at TA Freeman have the necessary knowledge, experience and accreditations to do this.
-                        </p>
-                            <p>
-We can undertake contract maintenance work and regular servicing to try to prevent problems happening in the first place.
-</p>
+ If you are looking for a reliable and skilled plumber with a focus on customer service give us a call today. Please browse our website for information on all of our services                        
+                       </p>
                        <p>
 As well as our domestic services at TA Freeman Plumbing and Heating we can also carry out work on commercial heating and plumbing systems. As with our domestic customers we know that a business cannot afford long disruptions caused by loss of heating or water supplies so we will always turn up when we say we will and will work quickly to resolve any problems</p>
                         <hr>
                         <blockquote>
-                        <p>
- If you are looking for a reliable and skilled plumber with a focus on customer service give us a call today.                     
-                       </p>
+                            <p>
+We can also undertake contract maintenance work and regular servicing to try to prevent problems happening in the first place.
+</p>
                         </blockquote>
                         <div class="row">
                             <div class="span4">
                                 <p> Services</p>
                                 <ul>
                                   <li>Annual Boiler Services</li>
+                                  <li>Gas Boiler Installation</li>
+                                  <li>Combi Boiler Repairs</li>
                                   <li>Gas Fire Repairs</li>
                                   <li>Plumbing Services</li>
                                   <li>Gas Boiler Insurance Cover</li>
-                                  <li>Gas Boiler Installation</li>
-                                  <li>Combi Boiler Repairs</li>
                                   <li>Landlord Safety Certificates</li>
-                                  <li>All types of plumbing work from full bathroom suites to leaking taps</li>
+                                  <li>All types of plumbing work from full bathroom suitesto leaking taps</li>
                                   <li>Sell and Install Gas Fires and Surrounds</li>
                                 </ul>
 
@@ -58,10 +56,18 @@ As well as our domestic services at TA Freeman Plumbing and Heating we can also 
                             <div class="span2">
                               <%= link_to image_tag("underfloor.jpg", alt: "heating"), '#' %>
                               <p>
-                              Underfloor heating provides the warmth to a room from the floor up.Lower temperature water this means the  boiler consumes less fuel.
+                                 Some information on the serverives that TA Freeman provides
                               </p>
                             </div>
 
+
+                            </div>
                         </div>
+                        <hr>
+                        <p>
+Whether you are looking for a new boiler or central heating system to be installed or alternatively are looking to increase the efficiency of your current system by carrying out, for example a powerflush, then our engineers at TA Freeman have the necessary knowledge, experience and accreditations to do this.
+                        </p>
+
+                    </div>
                 </div>
             </div>
