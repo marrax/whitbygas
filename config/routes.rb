@@ -1,22 +1,24 @@
 Whitbygas::Application.routes.draw do
-  get "pages/home"
+  #get "pages/home"
 
-  get "pages/about"
+  #get "pages/about"
 
-  get "pages/contact"
+  #get "pages/contact"
 
-  get "pages/view"
+  #get "pages/view"
 
-  get "pages/product"
+  #get "pages/product"
 
-  get "pages/services"
+  #get "pages/services"
 
-  get "pages/portfollio"
+  #get "pages/portfollio"
 
 root to: 'pages#home'
 
   match '/home', to:  'pages#home'
-  match '/contact', to:  'pages#contact'
+#  match '/contact', to:  'pages#contact'
+  match 'contact' =>  'contact#new', :as => 'contact', :via => :get
+  match 'contact' =>  'contact#create', :as => 'contact', :via => :post
 
   match '/about', to:  'pages#about'
 
