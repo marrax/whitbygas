@@ -1,6 +1,6 @@
 class EnquiryMailer < ActionMailer::Base
-  default :from => "whitbyplumbing@localdomain.dev"
-  default :to => "root@localhost"
+  default :from => "root@localdomain.dev"
+  default :to => "ta_plumbing@yahoo.co.uk"
 
   def new_message(message)
     @message = message
