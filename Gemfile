@@ -42,3 +42,4 @@ group :test do
   #gem 'turn', :require => false
 end
 gem 'simple_form'
+gem 'sitemap_generator'
